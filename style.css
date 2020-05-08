@@ -1,0 +1,72 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    padding: 40px 0 0 0;
+	margin: 0;
+}
+
+.wrap {
+    max-width: 1020px;
+    margin: 0px auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-header{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+ul{
+    display: flex; 
+    list-style-type: none;
+    
+}
+
+.ul-item{
+color:#545454;
+font-size: 19px;
+text-decoration: none;
+padding: 0 45px;
+}
+
+.one{
+    position: relative;
+}
+.one::before{
+    content: url("img/icon1.png");
+    position: absolute;
+    left: 7px;
+    
+}
+
+.two{
+    position: relative;
+    
+}
+.two::before{
+    content: url("img/icon2.png");
+    position: absolute;
+    left: 9px;
+   
+}
+.tree{
+    position: relative;
+    
+}
+.tree::before{
+    content: url("img/icon3.png");
+    position: absolute;
+    left: 15px;
+   
+}
+.four{
+    position: relative;
+   padding-right: 0px;
+}
+.four::before{
+    content: url("img/icon4.png");
+    position: absolute;
+    left: 12px;
+    
+}
