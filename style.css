@@ -70,3 +70,28 @@ padding: 0 45px;
     left: 12px;
     
 }
+
+.sliderminto{
+    margin-top: 32px;
+    margin-right: 458px;
+    
+}
+
+.text{
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+   
+    text-align: center;
+    height: 134px;
+
+}
+.text p {
+   max-width: 907px;
+    font-size: 23px;
+    padding: 5px 5px 5px 5px;
+}
+
+.text p span{
+ color: #82699d;
+ font-weight: 700;
+}
