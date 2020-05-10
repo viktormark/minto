@@ -96,3 +96,72 @@ padding: 0 45px;
  color: #82699d;
  font-weight: 700;
 }
+
+.flex-img{
+    display: flex;
+    margin-top: 30px;
+
+}
+.flex-img img{
+    max-width: 316px;
+    max-height: 313px;
+    border-radius: 50%;
+
+}
+
+.flex-img p{
+    
+        font-size: 15px;
+        color: rgb(131, 131, 131);
+        line-height: 1.867;
+        text-align: left;
+        max-width: 622px;
+        height: 182px;
+        z-index: 78;
+        margin-left: 35px;
+        margin-top: 41px;
+    
+           
+}
+
+.flex-img p span{
+    
+        font-size: 31px;
+        color: rgb(80, 80, 81);
+        font-weight: bold;
+        line-height: 1.161;
+        text-align: center;
+        letter-spacing: -1px;
+        z-index: 77;
+          
+}
+
+.flex-Where{
+    justify-content:space-between;
+display: flex;
+align-items:center;
+padding:1px 1px 1px 1px;
+margin-top: 20px;
+
+}
+.flex-Where p{
+    
+        font-size: 23px;
+        color: rgb(0, 0, 0);
+        z-index: 18;
+        width: 339px;
+        padding-left: 0px;
+        letter-spacing: -0.7px
+     
+      
+}
+.flex-Where p span{
+    font-weight: bold;
+    
+    
+}
+.flex-Where img{
+width: 660px;
+height: 5px;
+
+}
