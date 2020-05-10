@@ -1,3 +1,5 @@
+
+html { overflow-x: hidden; }
 body{
     font-family: 'Open Sans', sans-serif;
     padding: 40px 0 0 0;
@@ -87,6 +89,7 @@ padding: 0 45px;
    
     text-align: center;
     height: 142px;
+    max-width: 900px;
 
 }
 .text p {
@@ -228,6 +231,11 @@ footer{
     ul li{
     margin: 25px 7px 4px 9px;
     }
+
+
+  
+
+
     .sliderminto img {
         height: 60%;
         width: 100%;
@@ -271,16 +279,19 @@ footer{
     .text p{
             font-size: 12px;
     }
+
     .text{
         height: 100%;
+        max-width: 60%;
            }
+
     .flex-links {
            
           
             padding: 10px 10px 10px 10px;
             height: 50%;   
             margin-bottom: 100px;
-           
+            margin: 10px 26px 0px 45px;
         
         }
         .flex-links div{
@@ -293,5 +304,28 @@ footer{
            
         
         }
+
+        .tree::before {
+            
+            position: absolute;
+            left: 8px;
+        }
+
+        .flex-footer {
+            display: flex;
+            
+            flex-wrap: wrap;
+           
+        }
+
+        footer{
+            width: 100%;
+            height: 100%
+        }
+        .sotial {
+           
+            margin: auto;
+        }
+        
   
 }
